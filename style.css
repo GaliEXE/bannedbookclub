@@ -9,5 +9,5 @@ h1 {
 }
 
 @font-face {
-  font-family: Jackwrite src: url('Jackwrite.ttf');
+  font-family: Jackwrite; src: url('Jackwrite.ttf');
 }
