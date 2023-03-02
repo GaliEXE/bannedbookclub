@@ -5,4 +5,9 @@ body {
 h1 {
   color: white;
   text-align: center;
+  font-family: Jackwrite;
+}
+
+@font-face {
+  font-family: Jackwrite src: url('Jackwrite.ttf');
 }
