@@ -1,0 +1,247 @@
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: Jackwrite;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  color: white;
+}
+
+@font-face {
+  font-family: Jackwrite;
+  src: url('fonts/Jackwrite.ttf');
+}
+
+@font-face {
+  font-family: Jackwrite-Bold;
+  src: url('fonts/JackwriteBold.ttf');
+}
+
+.headerSpace {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
+.header {
+  color: white;
+  font-family: Jackwrite;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  top: 0px;
+  z-index: 5;
+}
+
+#bold {
+  font-family: Jackwrite-Bold;
+}
+
+.header>hr {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 50px;
+}
+
+img.Logo {
+  height: 50px;
+  width: 150px;
+}
+
+.menu {
+  float: right;
+  font-size: 38px;
+  font-family: Jackwrite;
+  border-left-style: solid;
+}
+
+.menu td {
+  border-right-style: solid;
+  padding: 0px 50px 0px 0px;
+  margin: 0px;
+}
+
+#cellThree {
+  border-right-style: none;
+}
+
+.Warning>p {
+  text-align: center;
+  background-color: #dd6e0c;
+  color: rgb(252, 6, 18);
+  font-weight: bolder;
+  margin-top: 0px;
+  padding-top: 5px;
+  width: 100%;
+  height: 25px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 24px;
+}
+
+.frontCover>img {
+  float: left;
+  margin: 25px 0px 0px 400px;
+}
+
+.navDetails {
+  float: right;
+  text-align: center;
+  margin: 100px 325px 300px 0px;
+  font-family: Jackwrite;
+  border-style: solid;
+}
+
+.assignmentOne {
+  top: 600px;
+  margin: 300px 0px 0px 400px;
+  position: absolute;
+}
+
+.navDivider {
+  position: absolute;
+  top: 885px;
+  margin: 0px 150px 0px 375px;
+  width: 65%;
+}
+
+.assignmentTwo {
+  position: absolute;
+  top: 1390px;
+  margin: 300px 0px 0px 400px;
+}
+
+.assOneDiv {
+  position: absolute;
+  margin: 0px 150px 0px 375px;
+  width: 75%;
+  top: 1685px;
+}
+
+.hoverAni p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-decoration: none;
+}
+
+.hoverAni {
+  text-align: left;
+  padding: 0px;
+}
+
+.hoverAni:hover {
+  text-decoration: underline;
+}
+
+.assignmentThree {
+  position: absolute;
+  top: 1975px;
+  margin: 300px 0px 300px 400px;
+  padding-bottom: 50px;
+}
+
+.assTwoDiv {
+  position: absolute;
+  margin: 0px 150px 0px 375px;
+  width: 75%;
+  top: 2265px;
+}
+
+#topButton {
+  display: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(38, 0, 255);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#topButton:hover {
+  background-color: #555;
+}
+
+.DevInfo {
+  position: absolute;
+  margin: 0px;
+  padding-bottom: 25px;
+  width: 100%;
+  top: 2670px;
+  border-top-style: solid;
+  background-color: rgb(39, 39, 39);
+}
+
+.StudioTag {
+  font-size: 0px;
+  text-align: center;
+  border-style: solid;
+  border-right-style: none;
+  border-collapse: separate;
+  border-color: #FFFFFF;
+  border: 1px;
+}
+
+.StudioTag2 {
+  font-size: 28px;
+  text-align: center;
+  border-style: solid;
+  border-left-style: none;
+  border-collapse: separate;
+  border-color: #FFFFFF;
+  border: 1px;
+  font-family: Aquire;
+  padding-left: 5px;
+}
+
+@font-face {
+  font-family: Aquire;
+  src: url('Aquire-BW0ox.otf');
+}
+
+.contactinfo {
+  padding-left: 50px;
+}
+
+.QADiv {
+  border-bottom-style: solid;
+  border: 2px;
+  border-collapse: collapse;
+  border-color: white;
+}
+
+#contactMe {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  color: aqua;
+}
