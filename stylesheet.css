@@ -294,3 +294,7 @@ img.Logo {
   border-top-style: solid;
   background-color: rgb(39, 39, 39);
 }
+
+.DevInfo404 a{
+  color: aqua;
+}
