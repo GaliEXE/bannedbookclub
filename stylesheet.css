@@ -109,7 +109,7 @@ img.Logo {
 .navDetails {
   float: right;
   text-align: center;
-  margin: 100px 325px 300px 0px;
+  margin: 70px 325px 300px 0px;
   font-family: Jackwrite;
   border-style: solid;
 }
@@ -296,5 +296,103 @@ img.Logo {
 }
 
 .DevInfo404 a{
+  color: aqua;
+}
+
+.assignmentOnePage{
+  top: 0px;
+  margin: 100px 0px 0px 400px;
+  position: absolute;
+}
+
+.assOneDivPage{
+  position: absolute;
+  margin: 0px 150px 0px 375px;
+  width: 71%;
+  top: 890px;
+}
+
+.normAssign p{
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+.assignOnePartOne{
+  position: absolute;
+  margin: 0px 150px 0px 375px;
+  width: 71%;
+  top: 925px;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+#cellOneActive{
+  text-decoration: underline;
+  cursor: default;
+}
+
+.assignOnePartTwo{
+  position: absolute;
+  margin: 0px 150px 0px 375px;
+  width: 71%;
+  top: 1345px;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.assignOnePartThree{
+  position: absolute;
+  margin: 0px 150px 0px 375px;
+  width: 71%;
+  top: 1780px;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.homeButton{
+  background-color: #0096FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  top: 2250px;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  float: right;
+  left: 50%;
+}
+
+.downloadPaper{
+  background-color: #0096FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  top: 2250px;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  float: left;
+  left: 20%;
+}
+
+.backToHome button:hover{
+  background-color: rgb(22, 20, 20);
+}
+
+.DevInfoAssOne{
+  position: absolute;
+  margin: 0px;
+  padding-bottom: 25px;
+  width: 100%;
+  top: 2350px;
+  border-top-style: solid;
+  background-color: rgb(39, 39, 39);
+}
+
+.DevInfoAssOne a{
   color: aqua;
 }
