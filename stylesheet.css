@@ -530,5 +530,72 @@ img.Logo {
   height: 50px;
   width: 100px;
   float: left;
-  left: 20%;
+  left: 21%;
+}
+
+#cellThreeActive{
+  text-decoration: underline;
+  cursor: default;
+}
+
+.assignmentThreePage{
+  position: absolute;
+  margin: 50px 0px 300px 400px;
+  padding-bottom: 25px;
+  border-bottom-style: solid;
+  width: 71%;
+}
+
+.assignThreePartOne{
+  position: absolute;
+  margin: 0px 150px 0px 400px;
+  width: 71%;
+  top: 450px;
+  border-bottom-style: solid;
+  line-height: 2;
+  font-size: 12pt;
+}
+
+.homeButtonThree {
+  background-color: #0096FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  top: 1300px;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  float: right;
+  left: 50%;
+}
+
+.downloadPaperThree{
+  background-color: #0096FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  top: 1300px;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  float: left;
+  left: 21%;
+}
+
+.DevInfoAssThree{
+  position: absolute;
+  margin: 0px;
+  padding-bottom: 25px;
+  width: 100%;
+  top: 1375px;
+  border-top-style: solid;
+  background-color: rgb(39, 39, 39);
+}
+
+.DevInfoAssThree a{
+  color: aqua;
 }
