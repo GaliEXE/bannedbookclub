@@ -59,7 +59,7 @@ p {
   top: 50px;
 }
 
-#cellOne{
+#cellOne {
   text-decoration: none;
 }
 
@@ -158,9 +158,10 @@ img.Logo {
   text-align: left;
   padding: 0px;
   text-decoration: none;
+  width: 300px;
 }
 
-.hoverAni:hover a {
+.hoverAni a:hover {
   text-decoration: underline;
 }
 
@@ -256,7 +257,7 @@ img.Logo {
   color: aqua;
 }
 
-#rubricButtons{
+#rubricButtons {
   cursor: pointer;
 }
 
@@ -265,27 +266,27 @@ img.Logo {
   color: white;
 }
 
-.Err404 img{
+.Err404 img {
   height: 150px;
-  width: 280px; 
+  width: 280px;
   margin-top: 5%;
 }
 
-.Err404Text{
+.Err404Text {
   text-align: center;
   font-size: 24px;
 }
 
 .Err404Text a {
- color: aqua;
- text-decoration: none;
+  color: aqua;
+  text-decoration: none;
 }
 
-.Err404Text a:hover{
+.Err404Text a:hover {
   text-decoration: underline;
 }
 
-.DevInfo404{
+.DevInfo404 {
   position: absolute;
   margin: 0px;
   padding-bottom: 25px;
@@ -295,29 +296,29 @@ img.Logo {
   background-color: rgb(39, 39, 39);
 }
 
-.DevInfo404 a{
+.DevInfo404 a {
   color: aqua;
 }
 
-.assignmentOnePage{
+.assignmentOnePage {
   top: 0px;
   margin: 100px 0px 0px 400px;
   position: absolute;
 }
 
-.assOneDivPage{
+.assOneDivPage {
   position: absolute;
   margin: 0px 150px 0px 375px;
   width: 71%;
   top: 890px;
 }
 
-.normAssign p{
+.normAssign p {
   padding: 0px;
   margin: 10px 0px 0px 0px;
 }
 
-.assignOnePartOne{
+.assignOnePartOne {
   position: absolute;
   margin: 0px 150px 0px 375px;
   width: 71%;
@@ -326,12 +327,12 @@ img.Logo {
   border-width: 2px;
 }
 
-#cellOneActive{
+#cellOneActive {
   text-decoration: underline;
   cursor: default;
 }
 
-.assignOnePartTwo{
+.assignOnePartTwo {
   position: absolute;
   margin: 0px 150px 0px 375px;
   width: 71%;
@@ -340,7 +341,7 @@ img.Logo {
   border-width: 2px;
 }
 
-.assignOnePartThree{
+.assignOnePartThree {
   position: absolute;
   margin: 0px 150px 0px 375px;
   width: 71%;
@@ -349,7 +350,7 @@ img.Logo {
   border-width: 2px;
 }
 
-.homeButton{
+.homeButton {
   background-color: #0096FF;
   color: white;
   text-align: center;
@@ -364,7 +365,7 @@ img.Logo {
   left: 50%;
 }
 
-.downloadPaper{
+.downloadPaper {
   background-color: #0096FF;
   color: white;
   text-align: center;
@@ -379,11 +380,11 @@ img.Logo {
   left: 20%;
 }
 
-.backToHome button:hover{
+.backToHome button:hover {
   background-color: rgb(22, 20, 20);
 }
 
-.DevInfoAssOne{
+.DevInfoAssOne {
   position: absolute;
   margin: 0px;
   padding-bottom: 25px;
@@ -393,6 +394,141 @@ img.Logo {
   background-color: rgb(39, 39, 39);
 }
 
-.DevInfoAssOne a{
+.DevInfoAssOne a {
   color: aqua;
+}
+
+.assignmentTwoPage {
+  top: 0px;
+  margin: 100px 0px 0px 400px;
+  position: absolute;
+  border-bottom-style: solid;
+  border-width: 2px;
+  padding-bottom: 25px;
+  width: 71%;
+}
+
+#cellTwoActive {
+  text-decoration: underline;
+  cursor: default;
+}
+
+#questions {
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+  border-width: .1px;
+}
+
+.assignTwoPartOne {
+  position: absolute;
+  margin: 0px 150px 0px 400px;
+  width: 71%;
+  top: 700px;
+  border-bottom-style: solid;
+}
+
+.assignTwoPartOne p {
+  font-size: 18px;
+}
+
+.assignTwoPartTwo {
+  position: absolute;
+  margin: 0px 150px 0px 400px;
+  width: 71%;
+  top: 1825px;
+  border-bottom-style: solid;
+  padding-bottom: 25px;
+}
+
+.aTwoPTwoImages {
+  height: 600px;
+  width: 850px;
+  margin: 0px 200px 0px 0px;
+}
+
+#drawnImg {
+  position: absolute;
+  margin-left: 151px;
+  top: 200px;
+}
+
+#drawnImg:hover {
+  animation: imgBeGone 2s forwards;
+}
+
+@keyframes imgBeGone {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
+
+.assignTwoPartThree {
+  position: absolute;
+  margin: 0px 150px 0px 400px;
+  width: 71%;
+  top: 2700px;
+  border-bottom-style: solid;
+  padding-bottom: 25px;
+}
+
+.desmosGraph {
+  width: 71%;
+  height: 500px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.assignTwoPartThreePtTwo {
+  position: absolute;
+  margin: 0px 150px 0px 400px;
+  width: 71%;
+  top: 3550px;
+  border-bottom-style: solid;
+}
+
+.homeButtonTwo {
+  background-color: #0096FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  top: 5950px;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  float: right;
+  left: 50%;
+}
+
+.DevInfoAssTwo{
+  position: absolute;
+  margin: 0px;
+  padding-bottom: 25px;
+  width: 100%;
+  top: 6050px;
+  border-top-style: solid;
+  background-color: rgb(39, 39, 39);
+}
+
+.DevInfoAssTwo a{
+  color: aqua;
+}
+
+.downloadPaperTwo{
+  background-color: #0096FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  top: 5950px;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  float: left;
+  left: 20%;
 }
