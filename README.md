@@ -1,4 +1,4 @@
-# bannedbookclub
+# The Banned Book Club Project
 Welcome to the Banned Book Club Website Source Code.
 Site: https://thebannedbookproject.vercel.app/index.html
 
