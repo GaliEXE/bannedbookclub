@@ -1,6 +1,6 @@
 # The Banned Book Club Project
-Welcome to the Banned Book Club Website Source Code.***
-Site: https://thebannedbookproject.vercel.app/index.html***
+Welcome to the Banned Book Club Website Source Code.<br>
+Site: https://thebannedbookproject.vercel.app/index.html
 ***
 Navigating the content:
 Each Folder Contains Important Files For the Site:
